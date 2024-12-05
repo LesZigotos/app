@@ -60,18 +60,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/documentation"
+                  href="https://www.nuitdelinfo.com/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/mentions-legales"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
-                  Mentions Légales
+                  Nuit de l'info 2024
                 </a>
               </li>
             </ul>
