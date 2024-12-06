@@ -1,0 +1,297 @@
+[
+  {
+    "id": 1,
+    "question": "Vous êtes responsable d’un port de pêche. Quelle stratégie adoptez-vous pour gérer les ressources marines ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Autoriser une pêche intensive pour maximiser les profits.",
+        "impact": {
+          "bloodPressure": 30
+        },
+        "correct": false,
+        "explanation": "La surpêche entraîne un stress majeur sur les écosystèmes marins, déséquilibrant les chaînes alimentaires. Cela peut être comparé à une augmentation de la pression artérielle due à un stress chronique chez les humains."
+      },
+      {
+        "label": "B",
+        "text": "Imposer des quotas de pêche raisonnables pour préserver les espèces.",
+        "impact": {
+          "bloodPressure": -10
+        },
+        "correct": true,
+        "explanation": "Une gestion durable permet aux écosystèmes marins de rester en équilibre, évitant ainsi des fluctuations dangereuses comparables à une hypertension chez l'humain."
+      }
+    ],
+    "source": "FAO, rapport sur la durabilité de la pêche, 2022."
+  },
+  {
+    "id": 2,
+    "question": "Un navire de croisière traverse une région sensible avec une barrière de corail. Quelle précaution recommandez-vous ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Laisser le navire traverser librement sans restrictions.",
+        "impact": {
+          "ph": -1
+        },
+        "correct": false,
+        "explanation": "Le rejet de carburants et de polluants peut acidifier les océans, un phénomène comparable à l'acidose métabolique chez l’humain."
+      },
+      {
+        "label": "B",
+        "text": "Mettre en place des zones de navigation contrôlée pour protéger les coraux.",
+        "impact": {
+          "ph": 0
+        },
+        "correct": true,
+        "explanation": "La gestion stricte réduit les émissions locales et évite une acidification exacerbée, permettant un environnement sain pour la biodiversité marine."
+      }
+    ],
+    "source": "NOAA, 'Impact of Ocean Acidification on Coral Reefs,' 2020."
+  },
+  {
+    "id": 3,
+    "question": "Vous êtes chargé de protéger une zone maritime où vivent plusieurs espèces en voie de disparition. Quelle politique adoptez-vous ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Permettre l’exploitation touristique de la zone pour financer sa protection.",
+        "impact": {
+          "respiratory": -10
+        },
+        "correct": false,
+        "explanation": "Une perturbation accrue des habitats marins peut entraîner une désoxygénation des eaux, comparable à une réduction de l'oxygénation chez les humains."
+      },
+      {
+        "label": "B",
+        "text": "Mettre en place une aire marine protégée avec un accès limité.",
+        "impact": {
+          "respiratory": 0
+        },
+        "correct": true,
+        "explanation": "Protéger les habitats permet de maintenir une oxygénation suffisante et une biodiversité résiliente."
+      }
+    ],
+    "source": "IUCN, rapport sur les aires marines protégées, 2021."
+  },
+  {
+    "id": 4,
+    "question": "Une entreprise propose de rejeter des eaux usées dans l’océan après un traitement minimal. Quelle est votre décision ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Autoriser le rejet pour économiser les coûts de traitement.",
+        "impact": {
+          "fertility": -10
+        },
+        "correct": false,
+        "explanation": "Les polluants et microplastiques affectent la reproduction des espèces marines, un phénomène parallèle aux perturbateurs endocriniens chez l'humain."
+      },
+      {
+        "label": "B",
+        "text": "Exiger un traitement avancé avant le rejet.",
+        "impact": {
+          "fertility": 0
+        },
+        "correct": true,
+        "explanation": "Une gestion stricte réduit les contaminants, préservant les capacités reproductives des espèces marines."
+      }
+    ],
+    "source": "UNEP, rapport sur la pollution marine, 2021."
+  },
+  {
+    "id": 5,
+    "question": "Vous travaillez pour une entreprise exploitant des ressources marines profondes (p. ex., le forage pétrolier). Quelle mesure adoptez-vous pour limiter les impacts négatifs ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Forer sans limites pour maximiser le rendement économique.",
+        "impact": {
+          "heartRate": 18
+        },
+        "correct": false,
+        "explanation": "La destruction des habitats marins en profondeur est similaire à une perturbation des systèmes autonomes chez l’humain."
+      },
+      {
+        "label": "B",
+        "text": "Mettre en place des règles strictes pour limiter l’exploitation.",
+        "impact": {
+          "heartRate": -10
+        },
+        "correct": true,
+        "explanation": "Une exploitation contrôlée limite les destructions, permettant aux écosystèmes de se maintenir."
+      }
+    ],
+    "source": "IUCN, rapport sur les impacts des exploitations marines profondes, 2020."
+  },
+  {
+    "id": 6,
+    "question": "Vous êtes responsable de la gestion d'une zone de mangroves qui protège les côtes contre l’érosion. Quelle stratégie adoptez-vous ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Remplacer les mangroves par des installations touristiques pour maximiser les profits.",
+        "impact": {
+          "respiratory": -10
+        },
+        "correct": false,
+        "explanation": "Les mangroves agissent comme des poumons pour les écosystèmes côtiers, captant le carbone et produisant de l'oxygène. Leur disparition peut être comparée à une détérioration pulmonaire."
+      },
+      {
+        "label": "B",
+        "text": "Planter davantage de mangroves pour renforcer les écosystèmes côtiers.",
+        "impact": {
+          "respiratory": 20
+        },
+        "correct": true,
+        "explanation": "Les mangroves restaurées captent davantage de CO₂ et renforcent la résilience des habitats côtiers."
+      },
+      {
+        "label": "C",
+        "text": "Maintenir les mangroves actuelles sans en planter de nouvelles.",
+        "impact": {
+          "respiratory": 0
+        },
+        "correct": false,
+        "explanation": "Sans perte immédiate, mais une absence d’extension compromet la résilience à long terme."
+      }
+    ],
+    "source": "UNEP, rapport sur l’importance des mangroves, 2021."
+  },
+  {
+    "id": 7,
+    "question": "Une grande quantité de plastique est rejetée dans les océans chaque année. Quelle mesure prenez-vous pour limiter cet impact ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Interdire les plastiques à usage unique dans votre région.",
+        "impact": {
+          "immuneSystem": 10
+        },
+        "correct": true,
+        "explanation": "Cette mesure réduit la quantité de déchets dans les océans, protégeant les écosystèmes."
+      },
+      {
+        "label": "B",
+        "text": "Encourager les initiatives locales pour nettoyer les plages.",
+        "impact": {
+          "immuneSystem": 5
+        },
+        "correct": false,
+        "explanation": "Nettoyer les plages réduit les déchets visibles mais n’empêche pas l’entrée continue de plastiques dans les écosystèmes marins."
+      },
+      {
+        "label": "C",
+        "text": "Ne pas agir immédiatement et laisser les industries s'autoréguler.",
+        "impact": {
+          "immuneSystem": -10
+        },
+        "correct": false,
+        "explanation": "Les plastiques se décomposent en microplastiques, aggravant l'acidification et les déséquilibres chimiques."
+      }
+    ],
+    "source": "WWF, rapport sur les plastiques dans les océans, 2020."
+  },
+  {
+    "id": 8,
+    "question": "Un récif corallien dans votre région est menacé par le blanchissement. Quelle politique mettez-vous en place ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Réduire les émissions locales en adoptant des technologies plus propres.",
+        "impact": {
+          "heartRate": -10
+        },
+        "correct": true,
+        "explanation": "Réduire le stress sur les récifs est comparable à limiter les facteurs de stress pour le cœur humain."
+      },
+      {
+        "label": "B",
+        "text": "Promouvoir le tourisme de masse pour attirer des fonds.",
+        "impact": {
+          "heartRate": 30
+        },
+        "correct": false,
+        "explanation": "La pollution générée par une affluence touristique met sous pression les récifs, comme un stress constant sur les artères."
+      },
+      {
+        "label": "C",
+        "text": "Développer des recherches pour identifier des coraux plus résistants.",
+        "impact": {
+          "heartRate": 5
+        },
+        "correct": false,
+        "explanation": "Investir dans la recherche est utile mais les résultats peuvent être trop lents pour des récifs déjà en crise."
+      }
+    ],
+    "source": "NOAA, 'Coral Bleaching and Climate Change,' 2020."
+  },
+  {
+    "id": 9,
+    "question": "Vous êtes à la tête d’un projet visant à exploiter les ressources minières sous-marines. Quelle stratégie adoptez-vous ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exploiter sans restriction pour maximiser les profits économiques.",
+        "impact": {
+          "fertility": -10
+        },
+        "correct": false,
+        "explanation": "La destruction des habitats marins affecte les cycles de reproduction des espèces, un parallèle avec les perturbateurs endocriniens humains."
+      },
+      {
+        "label": "B",
+        "text": "Limiter l’exploitation aux zones déjà endommagées.",
+        "impact": {
+          "fertility": 5
+        },
+        "correct": false,
+        "explanation": "Bien que réduisant les dégâts, cette stratégie ne permet pas une régénération active des écosystèmes."
+      },
+      {
+        "label": "C",
+        "text": "Investir dans des alternatives terrestres pour réduire l’impact marin.",
+        "impact": {
+          "fertility": 10
+        },
+        "correct": true,
+        "explanation": "Moins d’impact sur les habitats marins assure une biodiversité durable et un cycle de vie sain."
+      }
+    ],
+    "source": "PNAS, article sur les impacts de l’exploitation minière sous-marine, 2020."
+  },
+  {
+    "id": 10,
+    "question": "Un projet d’aquaculture industrielle est proposé dans votre région. Quelle approche privilégiez-vous ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Encourager une aquaculture intensive pour augmenter la production alimentaire.",
+        "impact": {
+          "immuneSystem": -10
+        },
+        "correct": false,
+        "explanation": "L’intensification provoque souvent une accumulation de pathogènes et de polluants, similaire à une surcharge sur le système immunitaire humain."
+      },
+      {
+        "label": "B",
+        "text": "Promouvoir une aquaculture écologique respectueuse des écosystèmes.",
+        "impact": {
+          "immuneSystem": 10
+        },
+        "correct": true,
+        "explanation": "Une gestion durable permet un équilibre écologique et réduit les risques sanitaires."
+      },
+      {
+        "label": "C",
+        "text": "Interdire l’aquaculture et encourager uniquement la pêche sauvage.",
+        "impact": {
+          "immuneSystem": -5
+        },
+        "correct": false,
+        "explanation": "Bien qu’évitant la surproduction, une dépendance accrue à la pêche sauvage pourrait fragiliser les stocks marins."
+      }
+    ],
+    "source": "FAO, 'Aquaculture and Sustainability,' 2020."
+  }
+]
