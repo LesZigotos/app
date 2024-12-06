@@ -11,9 +11,9 @@ function VitalityIndicatorsRow(props: VitalityIndicatorsRowProps) {
 
     return (
         <div className="flex justify-between">
-            <div className="flex gap-2">
+            <div className="flex gap-3">
                 {props.icon}
-                <p>
+                <p className="text-base font-light">
                     {props.title}
                 </p>
             </div>

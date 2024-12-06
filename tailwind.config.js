@@ -15,6 +15,7 @@ export default {
       'primary-transparent': '#6669BFE8',
       'gray': '#EBEBEB',
       'gray-darker': '#8492a6',
+      'red': '#C61717'
     },
     fontFamily: {
       sans: ['Roboto', 'sans-serif'],
