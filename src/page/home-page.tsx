@@ -8,7 +8,6 @@ function HomePage() {
 
     return (
         <div>
-            <Header />
             <div className="flex flex-col gap-28 px-48 py-24 max-lg:px-20 max-md:px-4 max-lg:py-6">
                 <div className="flex max-lg:flex-col max-lg:items-center max-lg:gap-8 justify-between items-top overflow-hidden gap-36  text-primary-darker">
                     <div className="flex flex-col gap-8 justify-between max-lg:items-center">
@@ -45,7 +44,6 @@ function HomePage() {
                     src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1974867219&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
                 ></iframe>
             </div>
-            <Footer />
         </div>
     );
 }
