@@ -9,9 +9,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Copyright Column */}
           <div className="space-y-4">
-            <h3 className="font-bold text-lg">Les Zigoto</h3>
+            <h3 className="font-bold text-lg">Les Zigotos</h3>
             <p className="text-gray-400">
-              © 2024-2025 Les Zigoto.
+              © 2024-2025 Les Zigotos.
               <br />
               Tous droits réservés.
             </p>
