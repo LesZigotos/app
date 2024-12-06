@@ -16,7 +16,7 @@ function Header() {
                     </svg>
                 </button>
             </div>
-            <BurgerMenu open={open} onClose={() => setOpen(false)} />
+            <BurgerMenu open={open} setOpen={setOpen} />
         </div>
     )
 }
