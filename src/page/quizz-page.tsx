@@ -1,8 +1,6 @@
 import { useState } from "react";
-import Footer from "../component/footer";
-import Header from "../component/header";
-import VitalityIndicatorsBox from "../component/vitality-indicators-box";
 import QuizComponent from "../component/quiz-component";
+import VitalityIndicatorsBox from "../component/vitality-indicators-box";
 
 function QuizzPage() {
   const [vitalityIndicators, setVitalityIndicators] = useState({
@@ -28,11 +26,9 @@ function QuizzPage() {
   return (
     <div className="h-full bg-gray overflow-scroll text-primary-darker">
       <div className="flex max-lg:flex-col justify-around items-center p-12 gap-12">
+        <h1 className="text-5xl font-semibold ml-48 mt-8">Le jeu</h1>
         <div className="flex flex-col justify-center">
-          <VitalityIndicatorsBox
-            indicators={vitalityIndicators}
-            recentChanges={recentChanges}
-          />
+          <VitalityIndicatorsBox indicators={vitalityIndicators} recentChanges={recentChanges} />
           <img src="/perso.png" className="max-lg:max-w-[400px]" />
         </div>
         <div>
