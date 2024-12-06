@@ -1,5 +1,6 @@
 import Header from "../component/header";
 import Footer from "../component/footer";
+
 function HomePage() {
   return (
     <div>
@@ -41,7 +42,7 @@ function HomePage() {
         <iframe
           className="w-full h-[166px]"
           allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1974775595&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1974867219&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         ></iframe>
       </div>
       <Footer />
