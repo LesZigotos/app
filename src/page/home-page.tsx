@@ -1,7 +1,5 @@
-import { useNavigate } from "react-router-dom"
-import Header from "../component/header";
-import Footer from "../component/footer";
-import Button from "../component/buton"
+import { useNavigate } from "react-router-dom";
+import Button from "../component/buton";
 
 function HomePage() {
     const navigate = useNavigate()

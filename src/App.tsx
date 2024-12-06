@@ -1,12 +1,9 @@
-import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Layout from "./component/layout";
+import EducationalCardsPage from "./page/educational-cards-page";
 import HomePage from "./page/home-page";
 import QuizzPage from "./page/quizz-page";
-import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./page/home-page";
-import EducationalCardsPage from "./page/educational-cards-page";
-import Layout from "./component/layout";
 
 function App() {
   return (
