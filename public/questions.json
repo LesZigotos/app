@@ -7,7 +7,7 @@
         "label": "A",
         "text": "Autoriser une pêche intensive pour maximiser les profits.",
         "impact": {
-          "bloodPressure": -10
+          "bloodPressure": 30
         },
         "correct": false,
         "explanation": "La surpêche entraîne un stress majeur sur les écosystèmes marins, déséquilibrant les chaînes alimentaires. Cela peut être comparé à une augmentation de la pression artérielle due à un stress chronique chez les humains."
@@ -16,7 +16,7 @@
         "label": "B",
         "text": "Imposer des quotas de pêche raisonnables pour préserver les espèces.",
         "impact": {
-          "bloodPressure": 0
+          "bloodPressure": -10
         },
         "correct": true,
         "explanation": "Une gestion durable permet aux écosystèmes marins de rester en équilibre, évitant ainsi des fluctuations dangereuses comparables à une hypertension chez l'humain."
@@ -107,7 +107,7 @@
         "label": "A",
         "text": "Forer sans limites pour maximiser le rendement économique.",
         "impact": {
-          "heart_rate": -10
+          "heartRate": 18
         },
         "correct": false,
         "explanation": "La destruction des habitats marins en profondeur est similaire à une perturbation des systèmes autonomes chez l’humain."
@@ -116,7 +116,7 @@
         "label": "B",
         "text": "Mettre en place des règles strictes pour limiter l’exploitation.",
         "impact": {
-          "heart_rate": 0
+          "heartRate": -10
         },
         "correct": true,
         "explanation": "Une exploitation contrôlée limite les destructions, permettant aux écosystèmes de se maintenir."
@@ -152,7 +152,7 @@
         "impact": {
           "respiratory": 0
         },
-        "correct": "partial",
+        "correct": false,
         "explanation": "Sans perte immédiate, mais une absence d’extension compromet la résilience à long terme."
       }
     ],
@@ -166,7 +166,7 @@
         "label": "A",
         "text": "Interdire les plastiques à usage unique dans votre région.",
         "impact": {
-          "immune_system": 10
+          "immuneSystem": 10
         },
         "correct": true,
         "explanation": "Cette mesure réduit la quantité de déchets dans les océans, protégeant les écosystèmes."
@@ -175,16 +175,16 @@
         "label": "B",
         "text": "Encourager les initiatives locales pour nettoyer les plages.",
         "impact": {
-          "immune_system": 5
+          "immuneSystem": 5
         },
-        "correct": "partial",
+        "correct": false,
         "explanation": "Nettoyer les plages réduit les déchets visibles mais n’empêche pas l’entrée continue de plastiques dans les écosystèmes marins."
       },
       {
         "label": "C",
         "text": "Ne pas agir immédiatement et laisser les industries s'autoréguler.",
         "impact": {
-          "immune_system": -10
+          "immuneSystem": -10
         },
         "correct": false,
         "explanation": "Les plastiques se décomposent en microplastiques, aggravant l'acidification et les déséquilibres chimiques."
@@ -200,7 +200,7 @@
         "label": "A",
         "text": "Réduire les émissions locales en adoptant des technologies plus propres.",
         "impact": {
-          "heart_rate": -10
+          "heartRate": -10
         },
         "correct": true,
         "explanation": "Réduire le stress sur les récifs est comparable à limiter les facteurs de stress pour le cœur humain."
@@ -209,7 +209,7 @@
         "label": "B",
         "text": "Promouvoir le tourisme de masse pour attirer des fonds.",
         "impact": {
-          "heart_rate": 30
+          "heartRate": 30
         },
         "correct": false,
         "explanation": "La pollution générée par une affluence touristique met sous pression les récifs, comme un stress constant sur les artères."
@@ -218,9 +218,9 @@
         "label": "C",
         "text": "Développer des recherches pour identifier des coraux plus résistants.",
         "impact": {
-          "heart_rate": 5
+          "heartRate": 5
         },
-        "correct": "partial",
+        "correct": false,
         "explanation": "Investir dans la recherche est utile mais les résultats peuvent être trop lents pour des récifs déjà en crise."
       }
     ],
@@ -245,7 +245,7 @@
         "impact": {
           "fertility": 5
         },
-        "correct": "partial",
+        "correct": false,
         "explanation": "Bien que réduisant les dégâts, cette stratégie ne permet pas une régénération active des écosystèmes."
       },
       {
@@ -268,7 +268,7 @@
         "label": "A",
         "text": "Encourager une aquaculture intensive pour augmenter la production alimentaire.",
         "impact": {
-          "immune_system": -10
+          "immuneSystem": -10
         },
         "correct": false,
         "explanation": "L’intensification provoque souvent une accumulation de pathogènes et de polluants, similaire à une surcharge sur le système immunitaire humain."
@@ -277,7 +277,7 @@
         "label": "B",
         "text": "Promouvoir une aquaculture écologique respectueuse des écosystèmes.",
         "impact": {
-          "immune_system": 10
+          "immuneSystem": 10
         },
         "correct": true,
         "explanation": "Une gestion durable permet un équilibre écologique et réduit les risques sanitaires."
@@ -286,9 +286,9 @@
         "label": "C",
         "text": "Interdire l’aquaculture et encourager uniquement la pêche sauvage.",
         "impact": {
-          "immune_system": -5
+          "immuneSystem": -5
         },
-        "correct": "partial",
+        "correct": false,
         "explanation": "Bien qu’évitant la surproduction, une dépendance accrue à la pêche sauvage pourrait fragiliser les stocks marins."
       }
     ],

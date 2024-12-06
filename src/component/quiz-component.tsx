@@ -12,11 +12,13 @@ interface QuizComponentProps {
     fertility: number;
   };
   setVitalityIndicators: (indicators: any) => void;
+  setRecentChanges: (changes: any) => void;
 }
 
 function QuizComponent({
   vitalityIndicators,
   setVitalityIndicators,
+  setRecentChanges,
 }: QuizComponentProps) {
   const [questions, setQuestions] = useState<any[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -24,7 +26,6 @@ function QuizComponent({
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   useEffect(() => {
-    // Charger les questions depuis le fichier JSON
     fetch("/questions.json")
       .then((res) => res.json())
       .then((data) => setQuestions(data))
@@ -42,13 +43,25 @@ function QuizComponent({
     )?.impact;
 
     if (selectedImpact) {
-      setVitalityIndicators((prev: any) => ({
-        ...prev,
-        ...Object.entries(selectedImpact).reduce((acc, [key, value]) => {
-          acc[key] = (prev[key] || 0) + value;
-          return acc;
-        }, {}),
-      }));
+      setVitalityIndicators((prev: any) => {
+        const changes = Object.entries(selectedImpact).reduce(
+          (acc, [key, value]) => {
+            acc[key] = value;
+            return acc;
+          },
+          {},
+        );
+
+        setRecentChanges(changes);
+
+        return {
+          ...prev,
+          ...Object.entries(selectedImpact).reduce((acc, [key, value]) => {
+            acc[key] = (prev[key] || 0) + value;
+            return acc;
+          }, {}),
+        };
+      });
     }
 
     setIsSubmitted(true);
@@ -132,8 +145,12 @@ function QuizComponent({
         ) : (
           <div className="space-y-6">
             <div className="flex justify-center gap-8 text-xl">
-              <span className={isCorrect ? "text-green-600" : "text-red-600"}>
-                {selectedOption}
+              <span className={isCorrect ? "text-green" : "text-red"}>
+                {
+                  currentQuestion.options.find(
+                    (option: any) => option.label === selectedOption,
+                  )?.text
+                }
               </span>
             </div>
 
@@ -150,7 +167,12 @@ function QuizComponent({
 
             {isCorrect && (
               <p className="text-center text-lg">
-                Bien joué ! C&apos;est la bonne réponse !
+                Bien joué ! C&apos;est la bonne réponse ! <br />
+                {
+                  currentQuestion.options.find(
+                    (option: any) => option.label === selectedOption,
+                  )?.explanation
+                }
               </p>
             )}
 
