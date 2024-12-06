@@ -44,6 +44,7 @@ function VitalityIndicatorsBox({
         }
         value={indicators.heartRate || 0}
         recentChange={recentChanges.heartRate || 0}
+        suffix="bpm"
       />
       <VitalityIndicatorsRow
         title="Système immunitaire"
@@ -75,9 +76,10 @@ function VitalityIndicatorsBox({
         }
         value={indicators.bodyTemperature || 0}
         recentChange={recentChanges.bodyTemperature || 0}
+        suffix="°C"
       />
       <VitalityIndicatorsRow
-        title="pH"
+        title="Acidité"
         icon={
           <svg
             className="w-5"
@@ -106,6 +108,7 @@ function VitalityIndicatorsBox({
         }
         value={indicators.ph || 0}
         recentChange={recentChanges.ph || 0}
+        suffix="pH"
       />
       <VitalityIndicatorsRow
         title="Pression arterielle"
@@ -120,6 +123,7 @@ function VitalityIndicatorsBox({
         }
         value={indicators.bloodPressure || 0}
         recentChange={recentChanges.bloodPressure || 0}
+        suffix="mmHg"
       />
       <VitalityIndicatorsRow
         title="Fonctions respiratoires"

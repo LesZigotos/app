@@ -32,7 +32,7 @@ function VitalityIndicatorsRow({
             {recentChange > 0 ? `+${recentChange}` : `${recentChange}`}
           </p>
         )}
-        {suffix && <p>{suffix}</p>}
+        {suffix && <p className="font-light">{suffix}</p>}
       </div>
     </div>
   );
