@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Footer() {
+  const navigate = useNavigate();
+
   return (
     <footer className="bg-[#020817] text-white py-12 px-4 md:px-6">
       <div className="container mx-auto max-w-7xl">
@@ -18,26 +22,25 @@ export default function Footer() {
             <h3 className="font-bold text-lg">Navigation</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="/experience"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                <a onClick={() => {
+                    navigate("/quizz");
+                  }}
+                  className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   L&apos;Expérience
                 </a>
               </li>
               <li>
                 <a
-                  href="/podcast"
-                  className="text-gray-400 hover:text-white transition-colors"
+                  onClick={() => {
+                    navigate("/podcast");
+                  }}
+                  className="text-gray-400 hover:text-white transition-colors cursor-pointer"
                 >
                   Notre Podcast
                 </a>
               </li>
               <li>
-                <a
-                  href="https://www.raceforwater.org"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                <a href="https://www.raceforwater.org" className="text-gray-400 hover:text-white transition-colors">
                   RACE FOR WATER
                 </a>
               </li>
@@ -59,10 +62,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://www.nuitdelinfo.com/"
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                <a href="https://www.nuitdelinfo.com/" className="text-gray-400 hover:text-white transition-colors">
                   Nuit de l'info 2024
                 </a>
               </li>
