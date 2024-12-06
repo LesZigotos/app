@@ -5,6 +5,7 @@ import EducationalCardsPage from "./page/educational-cards-page";
 import HomePage from "./page/home-page";
 import QuizzPage from "./page/quizz-page";
 import PodcastPage from "./page/podcast-page";
+import Captcha from './page/captcha-page';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/educational-cards" element={<EducationalCardsPage />} />
           <Route path="/quizz" element={<QuizzPage />} />
 		  <Route path="/podcast" element={<PodcastPage />} />
+		  <Route path="/captcha" element={<Captcha />} />
           {/* <Route path="users/:id" element={<Users />} /> */}
         </Routes>
       </Layout>
