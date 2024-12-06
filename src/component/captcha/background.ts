@@ -31,7 +31,7 @@ class Background extends PIXI.Container {
 
         if (!height) return;
 
-        const texture = Texture.from("tile.png");
+        const texture = Texture.from("https://leszigotos.github.io/tile.png");
         texture.source.scaleMode = 'nearest';
 
         this.upper = new TilingSprite({

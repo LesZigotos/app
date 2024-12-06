@@ -9,10 +9,10 @@ import Obstacle from "./obstacle.ts";
 import Timer from "./timer.ts";
 
 const assets = [
-    "bottle.png",
-    "cigarette.png",
-    "tile.png",
-    "boat.png",
+    "https://leszigotos.github.io/bottle.png",
+    "https://leszigotos.github.io/cigarette.png",
+    "https://leszigotos.github.io/tile.png",
+    "https://leszigotos.github.io/boat.png",
 ];
 
 class Captcha extends Application {

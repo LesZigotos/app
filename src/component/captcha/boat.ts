@@ -23,7 +23,7 @@ class Boat extends PIXI.Container {
     }
 
     init() {
-        const texture = Texture.from("boat.png");
+        const texture = Texture.from("https://leszigotos.github.io/boat.png");
         texture.source.scaleMode = 'nearest';
         this.sprite = new PIXI.Sprite(texture);
         this.setSize(this.sprite.width, this.sprite.height);
