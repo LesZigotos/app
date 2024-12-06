@@ -69,7 +69,7 @@ class Controls extends PIXI.Container {
         return { shape: shape, isPressed: false };
     }
 
-    setSize(width: number, height?: number) {
+    setSize(width: number) {
         // super.setSize(width, height);
 
         this.buttonLeft.shape.x = 0;
