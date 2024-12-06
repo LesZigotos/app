@@ -2,8 +2,8 @@ import * as PIXI from "pixi.js";
 import Obstacle from "./obstacle.ts";
 
 const textures = [
-    "public/bottle.png",
-    "public/cigarette.png"
+    "bottle.png",
+    "cigarette.png"
 ];
 
 class ObstacleSpawner {
