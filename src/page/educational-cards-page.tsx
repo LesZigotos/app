@@ -119,9 +119,9 @@ const EducationalCard: React.FC<EducationalCardProps> = ({ title, description, i
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="bg-white w-2/4 shadow-lg rounded-lg p-6 mb-6">
+    <div className="bg-white w-2/4 max-md:w-full shadow-lg rounded-lg p-6 mb-6">
       <div className="flex justify-between">
-        <div className="flex flex-row justify-between gap-24 w-full">
+        <div className="flex flex-row max-xl:flex-col-reverse justify-between gap-24 w-full max-lg:items-center ">
           <div className="flex flex-col justify-between">
             <div>
               <h2 className="text-3xl font-bold mb-3">{title}</h2>
