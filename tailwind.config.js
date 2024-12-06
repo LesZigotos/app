@@ -12,8 +12,10 @@ export default {
       'primary-light': '#69BFE8',
       'primary-dark': '#162751',
       'primary-darker': '#080E1E',
+      'primary-transparent': '#6669BFE8',
       'gray': '#EBEBEB',
       'gray-darker': '#8492a6',
+      'red': '#C61717'
     },
     fontFamily: {
       sans: ['Roboto', 'sans-serif'],
